@@ -69,6 +69,16 @@ public:
   }
 
   /**
+   * getModuleSize - Get the last module number in the cycle.
+   * 
+   * @returns The biggest packet's module number.
+   */
+  int getModuleSize()
+  {
+    return modulesSize;
+  }
+
+  /**
    * getValidation - Retrieves the validation results of each packet.
    * 
    * @returns Vector of boolean values indicating whether each packet is valid.
