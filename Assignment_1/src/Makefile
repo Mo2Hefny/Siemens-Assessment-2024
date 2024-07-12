@@ -65,4 +65,5 @@ run: $(VENV) install
 # Clean the virtual environment
 .PHONY: clean
 clean:
-	$(DEL) $(VENV)
+	$(DEL) $(VENV)\Include
+	$(DEL) $(VENV)\Lib
