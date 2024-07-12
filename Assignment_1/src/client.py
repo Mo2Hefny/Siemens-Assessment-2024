@@ -8,9 +8,6 @@ class Client:
 	Raises:
 		TypeError: If the input options are not a list of boolean or None values.
 		ValueError: If the input options size does not match the server's expected size or is empty.
-
-	Returns:
-		_type_: _description_
 	"""
 	# Static variable to store server instance
 	server = None
