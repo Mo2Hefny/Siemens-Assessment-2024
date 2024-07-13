@@ -4,6 +4,8 @@
 /**
  * readInteger - Reads an integer or rounds a float from the console and throws an error if
  * invalid input was given then tries again.
+ * 
+ * @returns the read integer
  */
 int readInteger() {
   int integer;
