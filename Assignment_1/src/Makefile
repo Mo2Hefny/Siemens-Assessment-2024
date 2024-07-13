@@ -17,35 +17,27 @@ ARGS7 = test_special_char_input.csv BufferData Ti/meOut P*acket
 # Detect the OS
 ifeq ($(OS), Windows_NT)
     # Windows settings
-    VENV = venv
-    PYTHON = $(VENV)/Scripts/python.exe
-    PIP = $(VENV)/Scripts/pip.exe
-    TEST = $(VENV)/Scripts/pytest.exe
+    PYTHON = python
+    PIP = pip
+    TEST = pytest
     PYTHON_CMD = python
     DEL = del /q /s
-    INSTALL_VENV = $(PYTHON_CMD) -m venv $(VENV)
 else
     # Unix settings
-    VENV = venv
     PYTHON = python3
     PIP = pip3
     TEST = pytest
     PYTHON_CMD = python3
     DEL = rm -rf
-    INSTALL_VENV =
 endif
 
 # Default target
 .PHONY: all
-all: install run
-
-# Create virtual environment
-$(VENV):
-	$(INSTALL_VENV)
+all: install run test
 
 # Install dependencies
 .PHONY: install
-install: $(VENV)
+install:
 	$(PIP) install -r requirements.txt
 
 # Run tests
@@ -63,9 +55,3 @@ run:
 	$(PYTHON) app.py $(ARGS5)
 	$(PYTHON) app.py $(ARGS6)
 	$(PYTHON) app.py $(ARGS7)
-
-# Clean the virtual environment
-.PHONY: clean
-clean:
-	$(DEL) $(VENV)\Include
-	$(DEL) $(VENV)\Lib

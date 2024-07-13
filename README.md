@@ -9,8 +9,8 @@ Check out the assessment report [here](Assessment-Report.pdf)!
 
 ## Test Cases Documents
   - [Assignment 1](./Assignment_1/docs/TESTS.md)
-  - [Assignment 2](./Assignment_1/docs/TESTS.md)
+  - [Assignment 2](./Assignment_2/docs/TESTS.md)
 
 ## Run Guide
   - [Assignment 1](./Assignment_1/README.md)
-  - [Assignment 2](./Assignment_1/README.md)
+  - [Assignment 2](./Assignment_2/README.md)

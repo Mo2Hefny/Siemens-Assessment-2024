@@ -13,7 +13,7 @@ cd ./Assignment_1/src
 
 ##### windows
 ```
-mingw32-make install
+pip install -r requirements.txt
 ```
 
 ##### linux
@@ -55,4 +55,8 @@ mingw32-make run
 make run
 ```
 
-![alt text](./assets/run_program.png)
+![alt text](./assets/run_program.png)  
+  
+
+> [!Note]  
+> use `make all` to run and test.
