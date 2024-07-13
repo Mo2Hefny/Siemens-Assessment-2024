@@ -4,18 +4,18 @@
 - Each test case is designed to verify the correct behavior of the class under different scenarios.
 
 ## Table of Contents for Test Cases
-1. [AccumulativeValues](#1-accumulativevalues)
-2. [EqualValues](#2-equalvalues)
-3. [NegativeValues](#3-negativevalues)
-4. [MixValues](#4-mixvalues)
-5. [ZeroValues](#5-zerovalues)
-6. [UnorderedPositiveValues](#6-unorderedpositivevalues)
-7. [UnorderedPositiveValuesWithDups](#7-unorderedpositivevalueswithdups)
-8. [FullCycleVector](#8-fullcyclevector)
-9. [EmptyVector](#9-emptyvector)
-10. [MaxValues](#10-maxvalues)
-11. [MaxValuesCycle](#11-maxvaluescycle)
-12. [EnormousValues](#12-enormousvalues)
+1. **[AccumulativeValues](#1-accumulativevalues)**
+2. **[EqualValues](#2-equalvalues)**
+3. **[NegativeValues](#3-negativevalues)**
+4. **[MixValues](#4-mixvalues)**
+5. **[ZeroValues](#5-zerovalues)**
+6. **[UnorderedPositiveValues](#6-unorderedpositivevalues)**
+7. **[UnorderedPositiveValuesWithDups](#7-unorderedpositivevalueswithdups)**
+8. **[FullCycleVector](#8-fullcyclevector)**
+9. **[EmptyVector](#9-emptyvector)**
+10. **[MaxValues](#10-maxvalues)**
+11. **[MaxValuesCycle](#11-maxvaluescycle)**
+12. **[EnormousValues](#12-enormousvalues)**
 
 ## Test Cases
 

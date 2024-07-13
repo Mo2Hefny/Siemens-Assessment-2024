@@ -69,7 +69,8 @@ public:
   }
 
   /**
-   * getModuleSize - Get the last module number in the cycle.
+   * getModuleSize - Retrieves the largest module number in the cycle, 
+   * indicating the last module M.
    * 
    * @returns The biggest packet's module number.
    */
