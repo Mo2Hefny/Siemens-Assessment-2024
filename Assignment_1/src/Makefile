@@ -26,7 +26,7 @@ ifeq ($(OS), Windows_NT)
 else
     # Unix settings
     VENV = venv
-    PYTHON = $(VENV)/bin/python
+    PYTHON = $(VENV)/bin/python3
     PIP = $(VENV)/bin/pip
     TEST = $(VENV)/bin/pytest
     PYTHON_CMD = python3

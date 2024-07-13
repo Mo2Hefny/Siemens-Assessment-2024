@@ -16,7 +16,7 @@ class TestServer(unittest.TestCase):
 		self.server = Server(system_option_size=3)
 
 	def test_invalid_setup_size(self):
-		self.assertRaises(ValueError, Server(system_option_size=0))
+		self.assertRaises(ValueError, Server, 0)
 
 	def test_initial_state(self):
 		self.assertEqual(self.server.state, (True, [True, True, True]))
