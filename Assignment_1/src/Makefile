@@ -23,14 +23,16 @@ ifeq ($(OS), Windows_NT)
     TEST = $(VENV)/Scripts/pytest.exe
     PYTHON_CMD = python
     DEL = del /q /s
+    INSTALL_VENV = $(PYTHON_CMD) -m venv $(VENV)
 else
     # Unix settings
     VENV = venv
-    PYTHON = $(VENV)/bin/python3
-    PIP = $(VENV)/bin/pip3
-    TEST = $(VENV)/bin/pytest
+    PYTHON = python3
+    PIP = pip3
+    TEST = pytest
     PYTHON_CMD = python3
     DEL = rm -rf
+    INSTALL_VENV =
 endif
 
 # Default target
@@ -39,7 +41,7 @@ all: install run
 
 # Create virtual environment
 $(VENV):
-	$(PYTHON_CMD) -m venv $(VENV)
+	$(INSTALL_VENV)
 
 # Install dependencies
 .PHONY: install
@@ -48,12 +50,12 @@ install: $(VENV)
 
 # Run tests
 .PHONY: test
-test: $(VENV) install
+test:
 	$(TEST)
 
 # Run the application
 .PHONY: run
-run: $(VENV) install
+run:
 	$(PYTHON) app.py $(ARGS1)
 	$(PYTHON) app.py $(ARGS2)
 	$(PYTHON) app.py $(ARGS3)

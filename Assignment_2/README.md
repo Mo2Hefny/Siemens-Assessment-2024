@@ -6,7 +6,7 @@
 
 #### 1. Go to the Assignment 2 Folder
 ```
-cd .\Assignment_2
+cd ./Assignment_2
 ```
 
 #### 2. Configure CMAKE and Update the Submodules
