@@ -29,7 +29,7 @@
 - CSV file in the following format.
 
   | PacketID | ModuleNumber | ValidModule |
-  |----------|--------------|-------------|
+  | -------- | ------------ | ----------- |
   | 1        | 1            | Yes         |
   | 2        | 3            | No          |
   | 3        | 4            | Yes         |
