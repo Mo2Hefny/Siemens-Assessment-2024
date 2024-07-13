@@ -27,7 +27,7 @@ else
     # Unix settings
     VENV = venv
     PYTHON = $(VENV)/bin/python3
-    PIP = $(VENV)/bin/pip
+    PIP = $(VENV)/bin/pip3
     TEST = $(VENV)/bin/pytest
     PYTHON_CMD = python3
     DEL = rm -rf
