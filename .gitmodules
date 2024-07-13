@@ -1,6 +1,0 @@
-[submodule "Assignment_2/src/external/googetest"]
-	path = Assignment_2/src/external/googetest
-	url = https://github.com/google/googletest.git
-[submodule "Assignment_2/Assignment_2/src/external/googletest"]
-	path = Assignment_2/Assignment_2/src/external/googletest
-	url = https://github.com/google/googletest.git
