@@ -1,5 +1,6 @@
 #include "packet.h"
 #include <sstream>
+#include <limits>
 
 /**
  * readInteger - Reads an integer or rounds a float from the console and throws an error if

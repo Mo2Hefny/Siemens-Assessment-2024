@@ -13,7 +13,7 @@ TEST(PacketValidatorTest, AccumulativeValues) {
   vector<bool> validation = validator.getValidation();
 
   ASSERT_EQ(validation.size(), modules.size());
-  for (auto& result: validation)
+  for (const auto& result: validation)
     EXPECT_TRUE(result);
 }
 
@@ -28,7 +28,7 @@ TEST(PacketValidatorTest, EqualValues) {
   vector<bool> validation = validator.getValidation();
 
   ASSERT_EQ(validation.size(), modules.size());
-  for (auto& result: validation)
+  for (const auto& result: validation)
     EXPECT_TRUE(result);
 }
 
@@ -108,7 +108,7 @@ TEST(PacketValidatorTest, FullCycleVector) {
   vector<bool> validation = validator.getValidation();
 
   EXPECT_EQ(validation.size(), modules.size());
-  for (auto& result: validation)
+  for (const auto& result: validation)
     EXPECT_TRUE(result);
 }
 
@@ -134,7 +134,7 @@ TEST(PacketValidatorTest, MaxValues) {
   vector<bool> validation = validator.getValidation();
 
   EXPECT_EQ(validation.size(), modules.size());
-  for (auto& result: validation)
+  for (const auto& result: validation)
     EXPECT_TRUE(result);
 }
 
@@ -149,7 +149,7 @@ TEST(PacketValidatorTest, MaxValuesCycle) {
   vector<bool> validation = validator.getValidation();
 
   EXPECT_EQ(validation.size(), modules.size());
-  for (auto& result: validation)
+  for (const auto& result: validation)
     EXPECT_TRUE(result);
 }
 
