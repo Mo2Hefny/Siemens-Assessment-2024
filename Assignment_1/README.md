@@ -1,12 +1,3 @@
-make install  # To create the virtual environment and install dependencies
-make test     # To run the tests
-make run      # To run the application
-make clean    # To clean the virtual environment
-
-or
-
-mingw32-make on windows
-
 # How to Run the Program
 
 ## Build
@@ -43,6 +34,8 @@ mingw32-make test
 make test
 ```
 
+![test passed](./assets/test_program.png)
+
 #### 2. Run the Main Program with multiple input
 
 > [!Note]  
@@ -61,3 +54,5 @@ mingw32-make run
 ```
 make run
 ```
+
+![alt text](./assets/run_program.png)
