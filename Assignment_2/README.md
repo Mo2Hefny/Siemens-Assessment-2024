@@ -31,6 +31,8 @@ g++ ./src/main.cpp -o ./bin/main
 ctest -C Debug --test-dir build --output-on-failure -j12
 ```
 
+##### Example  
+  
 ![test passed](./assets/test_program.png)
 
 #### 2. Run the Main Program

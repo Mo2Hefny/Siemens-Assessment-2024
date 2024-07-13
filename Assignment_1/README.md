@@ -34,6 +34,8 @@ mingw32-make test
 make test
 ```
 
+##### Example  
+  
 ![test passed](./assets/test_program.png)
 
 #### 2. Run the Main Program with multiple input
@@ -55,6 +57,8 @@ mingw32-make run
 make run
 ```
 
+##### Example  
+  
 ![alt text](./assets/run_program.png)  
   
 
